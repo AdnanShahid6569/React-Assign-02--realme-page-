@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(244, 244, 251);
+}
+.CardSection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    height: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 252, 248);
+
+}
+.cards .description{
+    padding-top: 30px;
+}
+
+.description h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.description span{
+    margin-bottom:10px;
+    font-size:15px;
+    color:gray;
+    letter-Spacing:1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards .descBtn{
+    color: white;
+    background-color: cyan;
+    padding:  3px 6px;
+    border-radius:8px;
+    font-size: 15px;
+    border: none;
+}
+.imge img{
+    margin-top: 15px;
+    width: 250px;
+}
+
+.Accessories{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.Accessories div{
+    display: flex;
+    column-gap: 30px;
+    font-size: 20px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+
+.Accessories div .Audio{
+    border-bottom:2px solid black ;
+}
